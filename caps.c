@@ -12,4 +12,5 @@ while(c==s){
 r = pread(caps, &c, 1, 0);
 }
 printf("%c\n", c);
+close(caps);
 }
